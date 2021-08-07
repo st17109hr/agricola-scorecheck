@@ -1,3 +1,11 @@
+var bgm;
+bgm = new Audio();
+bgm.src = "../music/bgm.mp3"
+var bgm_katou;
+bgm_katou = new Audio();
+bgm_katou.src = "../music/っざけんなよおおおお！！！.wav"
+
+
 function ButtonClick(){
     var tokuten = 0;
 
@@ -143,5 +151,10 @@ function ButtonClick(){
         tokuten += 1;
     }
 
+    if(tokuten <= 24){
+        bgm_katou.play();
+    }else{
+        bgm.play();
+    }
     alert("あなたの得点は ["+tokuten+"] 点です");
 }
