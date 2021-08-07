@@ -1,9 +1,10 @@
 <html>
     <head>
+        <title>アグリコラ得点計算ツール</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <script type="text/javascript" src="../js/index.js"></script>
     </head>
     <body>
-        <script type="text/javascript" src="../js/index.js"></script>
-        <title>アグリコラ得点計算ツール</title>
         <h1>アグリコラ得点計算ツール</h1>
         <label>　　　　　小麦：<input type="number", id="komugi"></label><br>
         <label>　　　　　　羊：<input type="number", id="hituji"></label><br>
@@ -19,6 +20,6 @@
         <label>　　　　　家族：<input type="number", id="kazoku"></label><br>
         <label>　　　　物乞い：<input type="number", id="monogoi"></label><br>
         <label>　　　ボーナス：<input type="number", id="sonota"></label><br>
-        <input type="button", value="得点計算", onclick="ButtonClick();"/>
+        <div id="tokuten"><input type="button", value="得点計算", onclick="ButtonClick();"/></div>
     </body>
 </head>
