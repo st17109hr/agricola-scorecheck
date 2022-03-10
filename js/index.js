@@ -1,9 +1,9 @@
 var bgm;
 bgm = new Audio();
-bgm.src = "../music/bgm.mp3"
+bgm.src = "./music/bgm.mp3"
 var bgm_katou;
 bgm_katou = new Audio();
-bgm_katou.src = "../music/っざけんなよおおおお！！！.wav"
+bgm_katou.src = "./music/っざけんなよおおおお！！！.wav"
 
 
 function ButtonClick(){
